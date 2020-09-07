@@ -26,5 +26,4 @@
 
 1. [Introduction to Ethical Hacking](http://wiki.cas.mcmaster.ca/index.php/Ethical_Hacking)
 2. [Basic Kali Linux Commands](https://github.com/dexter-11/Konnexions-2020/blob/master/Day%201/Kali-Linux_Command_List.txt)
-3. [Linux essentials for Hackers - Hackersploit](https://hackersploit.org/linux-essentials-for-hackers/)
-4. [Nullbyte](https://null-byte.wonderhowto.com/how-to/linux-basics/)
+3. Linux essentials for Hackers - [Hackersploit](https://hackersploit.org/linux-essentials-for-hackers/) [Nullbyte](https://null-byte.wonderhowto.com/how-to/linux-basics/)
