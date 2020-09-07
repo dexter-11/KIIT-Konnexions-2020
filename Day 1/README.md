@@ -48,7 +48,7 @@
 
 
 ### Access privileges
-Most Popular command - **`chmod 777 <file>`**      |
+Most Popular command - **`chmod 777 <file>`**   
             
 When we want to set permissions, we just add up the number. 
 For example, to set the permissions to read and write, we will use ‘6’ (4 + 2) for the permission. 
