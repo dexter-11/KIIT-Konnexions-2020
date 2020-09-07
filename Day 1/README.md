@@ -34,11 +34,11 @@
 # Day 1a [Handy commands and actions]
 
 ### Your handy shortcuts!
-   *Ctrl+C* Terminates a job/process
-   *Ctrl+Shift+C* Copy
-   *Ctrl+Shift+V* Paste
+* *Ctrl+C* Terminates a job/process
+* *Ctrl+Shift+C* Copy
+* *Ctrl+Shift+V* Paste
 
 ### Keep system and applications up-to-date
-   **`sudo apt-get update && sudo apt-get upgrade`** OR **`sudo apt update && sudo apt full-upgrade`**    -> Update the kali repositories
 
-   **`sudo apt-get install <application_name>`** -> Install/update git community repositories
+**`sudo apt-get update && sudo apt-get upgrade`** OR **`sudo apt update && sudo apt full-upgrade`**    -> Update the kali repositories
+**`sudo apt-get install <application_name>`** -> Install/update git community repositories
