@@ -70,51 +70,51 @@ What about the 3 digits ‘777’? Well, the First digit is assigned to the Owne
 
 ## Day 1b [Types of Hackers | Networking]
 
-[Hacker_Roadmap](https://github.com/sundowndev/hacker-roadmap#wrench-exploitation-tools) Star this Git repository for future reference.
+1. [Hacker_Roadmap](https://github.com/sundowndev/hacker-roadmap#wrench-exploitation-tools) Star this repository for future reference.
 
-[Types of Hackers](https://www.malwarefox.com/types-of-hackers/) 
+2. [Types of Hackers](https://www.malwarefox.com/types-of-hackers/) 
 
-#### NETWORKING
+#### 3. NETWORKING
 ```
-ifconfig    //Network adapters
-iwconfig    //Wlan adapters
-ping <ip/url>       //ping to check activity
-arp -a      //ip address with its mac address
-netstat -ano        //all open connections and which one is talking from what port number
+ifconfig          // network adapters
+iwconfig          // wlan adapters
+ping <ip/url>     // ping to check connection and stability
+arp -a            // IP address with MAC address
+netstat -ano      // all open connections and which one is talking from what port number
 ```
 
-Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`**
-Now, go in any browser and enter **<kali_ip>:8080** to access system files!
+3(i). Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`** <br/>
+Now, go in any browser and enter **<kali_ip>:8080** to access system files! <br/>
 
-TCP : https   smtp   ftp 
-    1.Connection oriented
-    2.Give Response
+TCP : https   smtp   ftp <br/>
+    1. Connection oriented
+    2. Give Response
     
-UDP : DNS   ntp
+UDP : DNS   ntp <br/>
     1.No response
-
-____________Three Way Handshake______________________
-CLIENT  ---------->Server    
-                 syn                             - packets (sync and acknowledgement)
-CLIENT<-----------Server
-              ack+syn
-CLIENT----------->Server
-                ack
-Connection complete!
+<br/>
+____________Three Way Handshake______________________ <br/>
+CLIENT  ---------->Server    <br/>
+                 syn                             - packets (sync and acknowledgement) <br/>
+CLIENT<-----------Server <br/>
+              ack+syn <br/>
+CLIENT----------->Server<br/>
+                ack <br/>
+Connection complete! <br/>
 ____________________________________________________________
 
-Flags 
+3(ii). **Flags** 
 FIN - transmission finished
 PSH - send buffer 
 URG - important packet
 RST - Reset connection
 
-Xmas tree - random flags in header, server tries to process, no response from server
+*XMAS TREE* - random flags in header, server tries to process, no response from server
 (If server down or port closed, RST response everytime)
 
 [FIN & RST packets goes through firewall, but no response]
 
-Ports
+3(iii). **Ports**
 1.Open  - that actively respond to incoming connection
 2.Closed  - that respond but does not have any services running on that port (Firewall not present)
 3.Filtered - (Firewall present) protected and prevents nmap from determining open/closed
