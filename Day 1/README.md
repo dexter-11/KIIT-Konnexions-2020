@@ -31,6 +31,8 @@
 4. Linux essentials for Hackers - [Hackersploit](https://hackersploit.org/linux-essentials-for-hackers/) || [Nullbyte](https://null-byte.wonderhowto.com/how-to/linux-basics/)
 
 
+
+
 ## Day 1a [Handy commands and actions]
 
 ### Your handy shortcuts!
@@ -44,22 +46,22 @@
 
 **`sudo apt-get install <application_name>`** -> Install/update git community repositories
 
-### Access privileges
 
+### Access privileges
 Most Popular command - **`chmod 777 <file>`**      |
             
 When we want to set permissions, we just add up the number. 
 For example, to set the permissions to read and write, we will use ‘6’ (4 + 2) for the permission. 
  
 Here are the different permutations:
-   *0 – no permission*
-   *1 – EXECUTE*
-   *2 – WRITE*
-   *3 – write and execute*
-   *4 – READ*
-   *5 – read and execute*
-   *6 – read and write*
-   *7 – read, write, and execute*
+   * 0 – *no permission*
+   * 1 – *EXECUTE*
+   * 2 – *WRITE*
+   * 3 – *write and execute*
+   * 4 – *READ*
+   * 5 – *read and execute*
+   * 6 – *read and write*
+   * 7 – *read, write, and execute*
    
 Depending on the permissions you want to grant to the file, you just set the number accordingly.
 What about the 3 digits ‘777’? Well, the First digit is assigned to the Owner, the Second digit is assigned to the Group and the Third digit is assigned to the Others. 
