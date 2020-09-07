@@ -29,3 +29,18 @@
 2. [Introduction to Ethical Hacking](http://wiki.cas.mcmaster.ca/index.php/Ethical_Hacking)
 3. [Basic Kali Linux Commands](https://github.com/dexter-11/Konnexions-2020/blob/master/Day%201/Kali-Linux_Command_List.txt)
 4. Linux essentials for Hackers - [Hackersploit](https://hackersploit.org/linux-essentials-for-hackers/) || [Nullbyte](https://null-byte.wonderhowto.com/how-to/linux-basics/)
+
+
+# Day 1a [Handy commands and actions]
+
+### Your handy shortcuts!
+*Ctrl+C* Terminates a job/process
+*Ctrl+Shift+C* Copy
+*Ctrl+Shift+V* Paste
+
+### Keep system and applications up-to-date
+**`sudo apt-get update && sudo apt-get upgrade`**
+OR
+**`sudo apt update && sudo apt full-upgrade`**    -> Update the kali repositories
+
+**`sudo apt-get install <application_name>`** -> Install/update git community repositories
