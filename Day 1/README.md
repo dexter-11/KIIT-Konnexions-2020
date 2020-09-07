@@ -15,8 +15,13 @@
 ## Installation
 
 1. [Youtube Tutorial](https://www.youtube.com/watch?v=zE3EhEJYQ-I) to install Kali Linux in VirtualBox.
+https://www.youtube.com/watch?v=yH4plWQ5UbE&ab_channel=OSDock
 2. Kali Regular Repo : **`deb http://http.kali.org/kali kali-rolling main non-free contrib`**
 3. Make sure your **/etc/apt/sources.list** has the above entry, if it doesn't add it and save the file.
+4. After booting up Kali, add yourself to the sudoer's list. Run the command **sudo usermod -a -G $USER root**. Check sudo rights - **sudo -l**
+5. From Kali 2020.1 onwards, Kali discarded the default root-user policy. Enable it [Here](https://itsfoss.com/kali-linux-root-user/).
+6. Ensure Virtualbox Guest Additions is properly installed [Here](https://www.kali.org/docs/virtualization/install-virtualbox-guest-additions-kali/)
+7. Issue with Shared Folder access permissions [Solution](https://innovativebeast.com/shared-folder-permission-denied-issue-in-virtualbox/)
 
 ## Resources
 
