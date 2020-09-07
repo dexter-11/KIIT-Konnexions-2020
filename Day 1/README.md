@@ -23,7 +23,7 @@
 1. VirtualBox - 6.1.4 [ [Download](https://download.virtualbox.org/virtualbox/6.1.14/VirtualBox-6.1.14-140239-Win.exe) ]
 2. Kali Linux 64-Bit - 2020.3 [ [Download](https://cdimage.kali.org/kali-2020.3/kali-linux-2020.3-installer-amd64.iso) | [Torrent](https://images.kali.org/kali-linux-2020.3-installer-amd64.iso.torrent) ]
 3. Metasploitable2 [ [Download](https://nchc.dl.sourceforge.net/project/metasploitable/Metasploitable2/metasploitable-linux-2.0.0.zip) ]
-4. Burp Suite Community Edition [ [Download] (<https://portswigger.net/burp/releases/professional-community-2020-9-1>) ]
+4. Burp Suite Community Edition [ [Download] (https://portswigger.net/burp/releases/professional-community-2020-9-1) ]
 
 ## Hardware Requirements
 
