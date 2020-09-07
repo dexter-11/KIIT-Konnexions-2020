@@ -10,7 +10,7 @@
 ## Hardware Requirements
 
 1. Laptop :)
-2. External WiFi Adapter [Should support Monitor mode & Packet Injection] - Only if you wish to do WiFi hacking (Demo will be shown)
+2. **Not Necessary** External WiFi Adapter [Should support Monitor mode & Packet Injection] - *Only if you wish to do WiFi hacking (Demo will be shown)*
 
 ## Installation
 
