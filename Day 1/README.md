@@ -66,3 +66,62 @@ Here are the different permutations:
 Depending on the permissions you want to grant to the file, you just set the number accordingly.
 What about the 3 digits ‘777’? Well, the First digit is assigned to the Owner, the Second digit is assigned to the Group and the Third digit is assigned to the Others. 
 **So for a file with ‘777’ permission, everyone can read, write and execute the file.**
+
+
+## Day 1b [Types of Hackers | Networking]
+
+[Hacker_Roadmap](https://github.com/sundowndev/hacker-roadmap#wrench-exploitation-tools) Star this Git repository for future reference.
+
+[Types of Hackers](https://www.malwarefox.com/types-of-hackers/) 
+
+#### NETWORKING
+```
+ifconfig    //Network adapters
+iwconfig    //Wlan adapters
+ping <ip/url>       //ping to check activity
+arp -a      //ip address with its mac address
+netstat -ano        //all open connections and which one is talking from what port number
+```
+
+Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`**
+Now, go in any browser and enter **<kali_ip>:8080** to access system files!
+
+TCP : https   smtp   ftp 
+    1.Connection oriented
+    2.Give Response
+    
+UDP : DNS   ntp
+    1.No response
+
+____________Three Way Handshake______________________
+CLIENT  ---------->Server    
+                 syn                             - packets (sync and acknowledgement)
+CLIENT<-----------Server
+              ack+syn
+CLIENT----------->Server
+                ack
+Connection complete!
+____________________________________________________________
+
+Flags 
+FIN - transmission finished
+PSH - send buffer 
+URG - important packet
+RST - Reset connection
+
+Xmas tree - random flags in header, server tries to process, no response from server
+(If server down or port closed, RST response everytime)
+
+[FIN & RST packets goes through firewall, but no response]
+
+Ports
+1.Open  - that actively respond to incoming connection
+2.Closed  - that respond but does not have any services running on that port (Firewall not present)
+3.Filtered - (Firewall present) protected and prevents nmap from determining open/closed
+4.Unfiltered  -  nmap can access but cannot determine open/closed
+
+5.Open-filtered - nmap belives to be open but can not say
+6.Close-filtered - nmap belives to be closed but can not say
+
+
+route       -routing table tells you where the traffic exits
