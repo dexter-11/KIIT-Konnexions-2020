@@ -92,8 +92,8 @@ TCP : https   smtp   ftp <br/>
     2. Give Response <br/>
     
 UDP : dns   ntp <br/>
-    1.No response
-<br/>
+    1.No response <br/>
+
 ____________Three Way Handshake______________________ <br/>
 CLIENT  ---------->Server    <br/>
           *syn* <br/>
@@ -122,3 +122,6 @@ RST - Reset connection <br/>
 4.Unfiltered  -  nmap can access but cannot determine open/closed <br/>
 5.Open-filtered - nmap belives to be open but can not say <br/>
 6.Close-filtered - nmap belives to be closed but can not say <br/>
+
+### Staying Anonymous in Kali Linux
+[How to stay anonmous](https://www.youtube.com/watch?v=VZMHfO9rOCg&list=PLBf0hzazHTGOh6JBKc8WkpyuZgDPW6yTk&ab_channel=HackerSploit)
