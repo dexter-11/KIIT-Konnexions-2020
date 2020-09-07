@@ -96,13 +96,13 @@ UDP : dns   ntp <br/>
 <br/>
 ____________Three Way Handshake______________________ <br/>
 CLIENT  ---------->Server    <br/>
-       *syn** <br/>
+          *syn* <br/>
 CLIENT<-----------Server <br/>
-       *ack+syn* <br/>
+          *ack+syn* <br/>
 CLIENT----------->Server<br/>
-       *ack* <br/>
+          *ack* <br/>
 Connection complete! <br/>
-____________________________________________________________
+____________________________________________________________ <br/>
 
 2. **Flags** <br/>
 FIN - transmission finished <br/>
@@ -112,9 +112,9 @@ RST - Reset connection <br/>
 <br/>
 *XMAS TREE* - random flags in header, server tries to process, no response from server
 (If server down or port closed, RST response everytime)
- <br/>
+<br/>
 [FIN & RST packets goes through firewall, but no response] <br/>
-
+<br/>
 3. **Ports** <br/>
 1.Open  - that actively respond to incoming connection <br/>
 2.Closed  - that respond but does not have any services running on that port (Firewall not present) <br/>
