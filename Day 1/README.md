@@ -74,54 +74,51 @@ What about the 3 digits ‘777’? Well, the First digit is assigned to the Owne
 
 2. [Types of Hackers](https://www.malwarefox.com/types-of-hackers/) 
 
-#### 3. NETWORKING
+#### NETWORKING
 ```
 ifconfig          // network adapters
 iwconfig          // wlan adapters
 ping <ip/url>     // ping to check connection and stability
 arp -a            // IP address with MAC address
+route             //routing table tells you where the traffic exits
 netstat -ano      // all open connections and which one is talking from what port number
 ```
 
-3(i). Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`** <br/>
+1. Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`** <br/>
 Now, go in any browser and enter **<kali_ip>:8080** to access system files! <br/>
 
 TCP : https   smtp   ftp <br/>
-    1. Connection oriented
-    2. Give Response
+    1. Connection oriented <br/>
+    2. Give Response <br/>
     
-UDP : DNS   ntp <br/>
+UDP : dns   ntp <br/>
     1.No response
 <br/>
 ____________Three Way Handshake______________________ <br/>
 CLIENT  ---------->Server    <br/>
-                 syn                             - packets (sync and acknowledgement) <br/>
+       *syn** <br/>
 CLIENT<-----------Server <br/>
-              ack+syn <br/>
+       *ack+syn* <br/>
 CLIENT----------->Server<br/>
-                ack <br/>
+       *ack* <br/>
 Connection complete! <br/>
 ____________________________________________________________
 
-3(ii). **Flags** 
-FIN - transmission finished
-PSH - send buffer 
-URG - important packet
-RST - Reset connection
-
+2. **Flags** <br/>
+FIN - transmission finished <br/>
+PSH - send buffer <br/>
+URG - important packet <br/>
+RST - Reset connection <br/>
+<br/>
 *XMAS TREE* - random flags in header, server tries to process, no response from server
 (If server down or port closed, RST response everytime)
+ <br/>
+[FIN & RST packets goes through firewall, but no response] <br/>
 
-[FIN & RST packets goes through firewall, but no response]
-
-3(iii). **Ports**
-1.Open  - that actively respond to incoming connection
-2.Closed  - that respond but does not have any services running on that port (Firewall not present)
-3.Filtered - (Firewall present) protected and prevents nmap from determining open/closed
-4.Unfiltered  -  nmap can access but cannot determine open/closed
-
-5.Open-filtered - nmap belives to be open but can not say
-6.Close-filtered - nmap belives to be closed but can not say
-
-
-route       -routing table tells you where the traffic exits
+3. **Ports** <br/>
+1.Open  - that actively respond to incoming connection <br/>
+2.Closed  - that respond but does not have any services running on that port (Firewall not present) <br/>
+3.Filtered - (Firewall present) protected and prevents nmap from determining open/closed <br/>
+4.Unfiltered  -  nmap can access but cannot determine open/closed <br/>
+5.Open-filtered - nmap belives to be open but can not say <br/>
+6.Close-filtered - nmap belives to be closed but can not say <br/>
