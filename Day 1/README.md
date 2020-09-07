@@ -41,4 +41,5 @@
 ### Keep system and applications up-to-date
 
 **`sudo apt-get update && sudo apt-get upgrade`** OR **`sudo apt update && sudo apt full-upgrade`**    -> Update the kali repositories
+
 **`sudo apt-get install <application_name>`** -> Install/update git community repositories
