@@ -94,7 +94,7 @@ TCP : https   smtp   ftp <br/>
 UDP : dns   ntp <br/>
     1.No response <br/>
 
-____________Three Way Handshake______________ <br/>
+_____________Three Way Handshake______________ <br/>
 CLIENT  ---------->Server    <br/>
           *syn* <br/>
 CLIENT<-----------Server <br/>
@@ -110,7 +110,7 @@ PSH - send buffer <br/>
 URG - important packet <br/>
 RST - Reset connection <br/>
 <br/>
-* *XMAS TREE* - random flags in header, server tries to process, no response from server
+* **XMAS TREE** - random flags in header, server tries to process, no response from server
 (If server down or port closed, RST response everytime)
 <br/>
 [NOTE : IN & RST packets goes through firewall, but no response] <br/> <br/>
