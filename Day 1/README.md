@@ -70,7 +70,7 @@ What about the 3 digits ‘777’? Well, the First digit is assigned to the Owne
 
 ## Day 1b [Types of Hackers | Networking]
 
-1. [Hacker_Roadmap](https://github.com/sundowndev/hacker-roadmap#wrench-exploitation-tools) Star this repository for future reference.
+1. [Hacker_Roadmap](https://github.com/sundowndev/hacker-roadmap#wrench-exploitation-tools) (:lock: Star this repository for future reference)
 
 2. [Types of Hackers](https://www.malwarefox.com/types-of-hackers/) 
 
