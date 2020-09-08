@@ -110,8 +110,7 @@ PSH - send buffer <br/>
 URG - important packet <br/>
 RST - Reset connection <br/> <br/>
 
-* *XMAS TREE* - random flags in header, server tries to process, no response from server
-(If server down or port closed, RST response everytime)
+* [**Christmas Tree packet**](https://en.wikipedia.org/wiki/Christmas_tree_packet)
 <br/>
 [NOTE : FIN & RST packets go through the firewall, but have no response] <br/> <br/>
 
