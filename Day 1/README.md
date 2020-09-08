@@ -110,7 +110,7 @@ PSH - send buffer <br/>
 URG - important packet <br/>
 RST - Reset connection <br/> <br/>
 
-* [**Christmas Tree packet**](https://en.wikipedia.org/wiki/Christmas_tree_packet)
+* Read about a [**Christmas Tree packet**](https://en.wikipedia.org/wiki/Christmas_tree_packet).
 <br/>
 [NOTE : FIN & RST packets go through the firewall, but have no response] <br/> <br/>
 
