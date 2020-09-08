@@ -76,12 +76,12 @@ What about the 3 digits ‘777’? Well, the First digit is assigned to the Owne
 
 #### NETWORKING
 ```
-ifconfig          // network adapter information (Your machine's IP is visible at eth0)
-iwconfig          // wlan adapters information
-ping <ip/url>     // ping to check connection and stability
-arp -a            // IP address with MAC address
-route             //routing table tells you where the traffic exits
-netstat -ano      // all open connections and which one is talking from what port number
+ifconfig OR ip -a  // network adapter information (Your machine's IP is visible at eth0)
+iwconfig           // wlan adapters information
+ping <ip/url>      // ping to check connection and stability
+arp -a             // IP address with MAC address
+route              //routing table tells you where the traffic exits
+netstat -ano       // all open connections and which one is talking from what port number
 ```
 
 * Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`** <br/>
