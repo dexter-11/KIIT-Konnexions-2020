@@ -108,9 +108,9 @@ ______________________________________________ <br/>
 FIN - transmission finished <br/>
 PSH - send buffer <br/>
 URG - important packet <br/>
-RST - Reset connection <br/>
-<br/>
-* **XMAS TREE** - random flags in header, server tries to process, no response from server
+RST - Reset connection <br/> <br/>
+
+* *XMAS TREE* - random flags in header, server tries to process, no response from server
 (If server down or port closed, RST response everytime)
 <br/>
 [NOTE : IN & RST packets goes through firewall, but no response] <br/> <br/>
