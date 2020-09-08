@@ -76,7 +76,8 @@ What about the 3 digits ‘777’? Well, the First digit is assigned to the Owne
 
 #### NETWORKING
 ```
-ifconfig OR ip -a  // network adapter information (Your machine's IP is visible at eth0)
+sudo ifconfig 
+OR ip -a           // network adapter information (Your machine's IP is visible at eth0)
 iwconfig           // wlan adapters information
 ping <ip/url>      // ping to check connection and stability
 arp -a             // IP address with MAC address
