@@ -114,8 +114,8 @@ RST - Reset connection <br/>
 (If server down or port closed, RST response everytime)
 <br/>
 [FIN & RST packets goes through firewall, but no response] <br/>
-<br/>
-* **Ports** <br/>
+
+* **Ports**  <br/>
 1.Open  - that actively respond to incoming connection <br/>
 2.Closed  - that respond but does not have any services running on that port (Firewall not present) <br/>
 3.Filtered - (Firewall present) protected and prevents nmap from determining open/closed <br/>
