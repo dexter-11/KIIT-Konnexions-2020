@@ -35,7 +35,7 @@
 
 ## Day 1a [Handy commands and actions]
 
-### Your handy shortcuts!
+### Your handy terminal shortcuts!
 * *Ctrl+C* Terminates a job/process
 * *Ctrl+Shift+C* Copy
 * *Ctrl+Shift+V* Paste
@@ -76,8 +76,8 @@ What about the 3 digits ‘777’? Well, the First digit is assigned to the Owne
 
 #### NETWORKING
 ```
-ifconfig          // network adapters
-iwconfig          // wlan adapters
+ifconfig          // network adapter information (Your machine's IP is visible at eth0)
+iwconfig          // wlan adapters information
 ping <ip/url>     // ping to check connection and stability
 arp -a            // IP address with MAC address
 route             //routing table tells you where the traffic exits
@@ -113,7 +113,7 @@ RST - Reset connection <br/> <br/>
 * *XMAS TREE* - random flags in header, server tries to process, no response from server
 (If server down or port closed, RST response everytime)
 <br/>
-[NOTE : IN & RST packets goes through firewall, but no response] <br/> <br/>
+[NOTE : FIN & RST packets go through the firewall, but have no response] <br/> <br/>
 
 * **Ports**  <br/>
 1.Open  - that actively respond to incoming connection <br/>
