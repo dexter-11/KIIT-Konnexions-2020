@@ -84,7 +84,7 @@ route             //routing table tells you where the traffic exits
 netstat -ano      // all open connections and which one is talking from what port number
 ```
 
-1. Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`** <br/>
+* Running a local sever on Kali machine -> **`python -m SimpleHTTPServer 8080`** <br/>
 Now, go in any browser and enter **<kali_ip>:8080** to access system files! <br/>
 
 TCP : https   smtp   ftp <br/>
@@ -94,7 +94,7 @@ TCP : https   smtp   ftp <br/>
 UDP : dns   ntp <br/>
     1.No response <br/>
 
-____________Three Way Handshake______________________ <br/>
+____________Three Way Handshake______________ <br/>
 CLIENT  ---------->Server    <br/>
           *syn* <br/>
 CLIENT<-----------Server <br/>
@@ -102,9 +102,9 @@ CLIENT<-----------Server <br/>
 CLIENT----------->Server<br/>
           *ack* <br/>
 Connection complete! <br/>
-____________________________________________________________ <br/>
+______________________________________________ <br/>
 
-2. **Flags** <br/>
+* **Flags** <br/>
 FIN - transmission finished <br/>
 PSH - send buffer <br/>
 URG - important packet <br/>
@@ -115,13 +115,14 @@ RST - Reset connection <br/>
 <br/>
 [FIN & RST packets goes through firewall, but no response] <br/>
 <br/>
-3. **Ports** <br/>
+* **Ports** <br/>
 1.Open  - that actively respond to incoming connection <br/>
 2.Closed  - that respond but does not have any services running on that port (Firewall not present) <br/>
 3.Filtered - (Firewall present) protected and prevents nmap from determining open/closed <br/>
 4.Unfiltered  -  nmap can access but cannot determine open/closed <br/>
 5.Open-filtered - nmap belives to be open but can not say <br/>
 6.Close-filtered - nmap belives to be closed but can not say <br/>
+
 
 ### Staying Anonymous in Kali Linux
 [How to stay anonmous](https://www.youtube.com/watch?v=VZMHfO9rOCg&list=PLBf0hzazHTGOh6JBKc8WkpyuZgDPW6yTk&ab_channel=HackerSploit)
