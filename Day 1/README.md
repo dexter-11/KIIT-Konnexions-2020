@@ -110,10 +110,10 @@ PSH - send buffer <br/>
 URG - important packet <br/>
 RST - Reset connection <br/>
 <br/>
-*XMAS TREE* - random flags in header, server tries to process, no response from server
+* *XMAS TREE* - random flags in header, server tries to process, no response from server
 (If server down or port closed, RST response everytime)
 <br/>
-[FIN & RST packets goes through firewall, but no response] <br/>
+[NOTE : IN & RST packets goes through firewall, but no response] <br/> <br/>
 
 * **Ports**  <br/>
 1.Open  - that actively respond to incoming connection <br/>
@@ -121,7 +121,7 @@ RST - Reset connection <br/>
 3.Filtered - (Firewall present) protected and prevents nmap from determining open/closed <br/>
 4.Unfiltered  -  nmap can access but cannot determine open/closed <br/>
 5.Open-filtered - nmap belives to be open but can not say <br/>
-6.Close-filtered - nmap belives to be closed but can not say <br/>
+6.Close-filtered - nmap belives to be closed but can not say <br/> <br/>
 
 
 ### Staying Anonymous in Kali Linux
