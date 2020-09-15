@@ -41,7 +41,7 @@ also if it is up or down.
 10. **nikto** : It is a web server scanner which performs comprehensive tests against web servers for multiple items.
 11. **theharvester** : Gathers emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database.
 
-GOOGLE Dorks - 
+__Google Dorks__ - 
 ```
 site: <url>        site url only
 -s: <url>          subdomains of url
