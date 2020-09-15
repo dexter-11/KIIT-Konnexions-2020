@@ -40,3 +40,16 @@ also if it is up or down.
 9. **whatweb** : WhatWeb identifies websites. Its goal is to answer the question, “What is that Website?”. WhatWeb recognises web technologies including content management systems (CMS), blogging platforms, statistic/analytics packages, JavaScript libraries, web servers, and embedded devices. WhatWeb has over 1700 plugins, each to recognise something different. WhatWeb also identifies version numbers, email addresses, account IDs, web framework modules, SQL errors, and more.
 10. **nikto** : It is a web server scanner which performs comprehensive tests against web servers for multiple items.
 11. **theharvester** : Gathers emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database.
+
+GOOGLE Dorks - 
+```
+site: <url>        site url only
+-s: <url>          subdomains of url
+inurl: <url>       text in complete url
+filetype: <url>    pdf/php/txt/other
+intitle: <url>     in heading title
+intext: <url>      in website body
+
+Eg - intext:“aspx” filetype:txt login pass         -> can find default and common login passwords easily for sites
+     inurl:control/userimage.html                  -> all IP cameras use this url
+```
