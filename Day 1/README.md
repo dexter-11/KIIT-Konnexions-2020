@@ -6,7 +6,7 @@
 2. Kali Linux 64-Bit - 2020.3 [ [Download](https://cdimage.kali.org/kali-2020.3/kali-linux-2020.3-installer-amd64.iso) | [Torrent](https://images.kali.org/kali-linux-2020.3-installer-amd64.iso.torrent) ]
 3. Metasploitable2 [ [Download](https://nchc.dl.sourceforge.net/project/metasploitable/Metasploitable2/metasploitable-linux-2.0.0.zip) ]
 4. Burp Suite Community Edition [ [Download](https://portswigger.net/burp/releases/professional-community-2020-9-1) ]
-5. CherryTree Note taking app [Download](https://www.giuspen.com/cherrytree/) or any other alternative. Prefer to make digital notes to keep 'em handy 24/7.
+5. CherryTree Note taking app [ [Download](https://www.giuspen.com/cherrytree/) ] or any other alternative. Prefer to make digital notes to keep 'em handy 24/7.
 
 ## Hardware Requirements
 
