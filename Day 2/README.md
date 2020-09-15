@@ -1,4 +1,4 @@
-# Day 2 [Footprinting]
+# Day 2 [Reconnaissance / Footprinting]
 
 ### What is Footprinting ?
 Footprinting is a vital first step in the process of penetration testing because it allows for
@@ -27,6 +27,8 @@ The objective of Footprinting is to gather details about -
 ### Tools Used:
 1. **Google Dorks** : Used to gather data available publicly using targeted search techniques.
 2. **Shodan** : Shodan is a search engine that lets the user find specific types of computers connected to the internet using a variety of filters. Some have also described it as a search engine of service banners, which are metadata that the server sends back to the client.
+Alternatives - **Viz.greynoise.io   Censys.io **
+
 3. **https://archive.org/** : Get archived content of a website corresponding to a particular date.
 4. **https://www.netcraft.com/** : Gather information about the website/domain/server and services running on it.
 5. **whois** : This utility helps you gain information about a domain name, including ownership information, IP information, netblock data, and other information where available.
