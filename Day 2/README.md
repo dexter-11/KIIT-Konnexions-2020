@@ -53,3 +53,5 @@ intext: <url>      in website body
 Eg - intext:“aspx” filetype:txt login pass         -> can find default and common login passwords easily for sites
      inurl:control/userimage.html                  -> all IP cameras use this url
 ```
+### $HACKERSPLOIT_ Google Hacking
+https://hackersploit.org/google-hacking-for-penetration-testing/ (Exteremely helpful!)
