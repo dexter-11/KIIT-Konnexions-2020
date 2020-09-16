@@ -75,8 +75,7 @@ hping3 -S <zombie>
 
 ### Further Reading
 
-1. [NMAP by Konnexions](https://github.com/dexter-11/Konnexions-2020/edit/master/Day%203-4/Nmap.md)
-2. [NMAP Official Guide](https://nmap.org/book/man.html)
+* **_[NMAP by Konnexions](https://github.com/dexter-11/Konnexions-2020/edit/master/Day%203-4/Nmap.md)_**
 
 ## ENUMERATION
 
