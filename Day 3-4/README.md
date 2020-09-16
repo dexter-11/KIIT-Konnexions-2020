@@ -43,9 +43,9 @@ a thorough footprinting, it is possible to get a decent picture of a target.
 
 ### OS Fingerprinting
 
-OS Fingerprinting attempt to identify systems a bit better. Behind those open and closed ports is an operating system, to confirm the nature of the operating system OS Fringerprinting is perforned. There are 2 types of OS Fingerprinting :
+OS Fingerprinting attempt to identify systems a bit better. Behind those open and closed ports is an operating system, to confirm the nature of the operating system OS Fingerprinting is performed. There are 2 types of OS Fingerprinting :
 1. **Active** : The attacker sends specially crafted packets to gain info about the OS (DETECTABLE). (-O)
-2. **Passive** : The attacker sniffs packets from the network.(UNDETECTED)the
+2. **Passive** : The attacker sniffs packets from the network.(UNDETECTED)
 
 ### Banner Grabbing
 
