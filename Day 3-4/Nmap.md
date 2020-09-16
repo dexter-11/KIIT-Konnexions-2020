@@ -6,8 +6,8 @@ nmap   -sS   -T2   192.168.2.1   -oN
         |                         |
      Scanning option            Output options
         
- 
-nmap -O         <target_ip>      _OS Scan
+OPTIONS: 
+          -O                     _OS Scan
           -sS                    _scan all ports (never complete 3-way TCP handshake) - STILL SCAN    
           -sV                    _port and service versions on target 
           -v                     _verbose output
@@ -36,11 +36,12 @@ nmap -O         <target_ip>      _OS Scan
                                    --packet-trace     _you can see the exact packets being sent and received and learn how it really works.                             
 ```
 
-**cd /usr/share/nmap/scripts ~#**        _contains all default Nmap scripts
+**LOCATION _/usr/share/nmap/scripts_**        _contains all default Nmap scripts
 
 #### Filter scripts by use-case
-ls | grep ftp
 ```sh
+ls | grep ftp
+
     nmap -v --script=ftp-anon.nse <target_ip>
     nmap -v --script=ftp-vsftpd-backdoor.nse <target_ip>
 ```
@@ -48,7 +49,7 @@ ls | grep ftp
 #### NMAP Script in Python
 
 Another script for Nmap using the above ip list we filtered. Such scripts are mostly used in Ethical Hacking for fast results:
-*FAST ONE-LINE Script*
+*ONE-LINER Script*
 ```python
 for ip in $(cat iplist.txt) ; do nmap -sS -p 80 -T4 $ip & done
 ```
