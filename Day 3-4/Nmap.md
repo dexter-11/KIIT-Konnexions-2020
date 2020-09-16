@@ -109,6 +109,27 @@ nmap -sA -T4 -p 1-1000 <ip i.e. 192.168.0.106> -oN <output file w/ location i.e 
 nmap -T4 <ip> -Pn
 ```
 
+## Commonly Targeted PORTS
+
+Port number | Service
+------------ | -------------
+7 | Ping
+21 | FTP
+22 | SSH (Secure shell)
+23 | Telnet
+25 | SMTP( Mail)
+43 | WHOIS
+53 | DNS
+80 | HTTP
+110 | POP3 (Mail Access)
+135 | Windows RPC
+137-139 | Windows NetBIOS over TCP/IP
+143 | Internet Message Access Protocol (IMAP)
+443 | HTTPS Secure (HTTP over SSL)
+513 | Remote Login
+1433/1434 | Microsoft SQL Server
+8080 | Proxy
+
 ## Further Reading
 1. [NMAP Official Guide](https://nmap.org/book/man.html)
 2. [Cheatsheet](https://highon.coffee/blog/nmap-cheat-sheet/)
