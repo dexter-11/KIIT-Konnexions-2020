@@ -40,6 +40,10 @@ OPTIONS:
                                    --packet-trace     _you can see the exact packets being sent and received and learn how it really works.                             
 ```
 
+#### Agressive scan timings are faster, but could yeild inaccurate results!
+T5 uses very aggressive scan timings and could lead to missed ports, T4 is a better compromise if you need fast results.
+
+
 **LOCATION _/usr/share/nmap/scripts_** -contains all default Nmap scripts
 
 #### Nmap default script categories (Try yourself)
@@ -71,7 +75,10 @@ ls | grep ftp
 Another script for Nmap using the above ip list we filtered. Such scripts are mostly used in Ethical Hacking for fast results:
 *ONE-LINER Script*
 ```python
-for ip in $(cat iplist.txt) ; do nmap -sS -p 80 -T4 $ip & done
+for ip in $(cat iplist.txt); 
+do 
+nmap -sS -p 80 -T4 $ip & 
+done
 ```
 (running all ip's through the loop ; Nmap stealth scan, port 80, speed check, and give out IP )
 
@@ -102,3 +109,4 @@ nmap -T4 <ip> -Pn
 
 ## Further Reading
 1. [NMAP Official Guide](https://nmap.org/book/man.html)
+2. [Cheatsheet](https://highon.coffee/blog/nmap-cheat-sheet/)
