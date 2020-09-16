@@ -7,7 +7,7 @@ nmap   -sS   -T2   192.168.2.1   -oN
      Scanning option            Output options
         
  
-nmap -O <target_ip>              _OS Scan
+nmap -O         <target_ip>      _OS Scan
           -sS                    _scan all ports (never complete 3-way TCP handshake) - STILL SCAN    
           -sV                    _port and service versions on target 
           -v                     _verbose output
@@ -16,7 +16,8 @@ nmap -O <target_ip>              _OS Scan
           -sT                    _full TCP connection made -TCP SCAN
           -sU                    _access UDP port (expect to recieve reply back from system that port is open/closed)  -UDP SCAN
           -sA                    _determine if port is filtered / unfiltered (Check for firewall !) 
-          -f                     _A typical nmap scan sends 24 bytes of TCP packet by DEFAULT (8 byte/fragment=3 fragments), So each of this command adds 8 bytes=1 fragment to the Default sent packet.
+          -f                     _A typical nmap scan sends 24 bytes of TCP packet by DEFAULT (8 byte/fragment=3 fragments), 
+                                  So each of this command adds 8 bytes=1 fragment to the Default sent packet.
           -iL <ip.txt>           _Scans a list of ip addressess from a file
           -sN                    _Ping scan, disable port scan
           
@@ -28,7 +29,8 @@ nmap -O <target_ip>              _OS Scan
                        -T5          _Insane Scan [Assumes fast network, Takes most bandwidth and give up some accuracy for speed]
                              -oN        _Normal Output [Create text file that can be used for evaluation or into another command]
                              -oX        _XML Output [Input into different apps]
-                             -oG        _Greppable Output [Most used by Pen-testers to allow further investigation using grep or other tools like AWK, ACD, DIFF]
+                             -oG        _Greppable Output 
+                                        [Most used by Pen-testers to allow further investigation using grep or other tools like AWK, ACD, DIFF]
                              -oS        _Script Kiddies Output
                                                     
                                    --packet-trace     _you can see the exact packets being sent and received and learn how it really works.                             
