@@ -99,3 +99,6 @@ nmap -sA -T4 -p 1-1000 <ip i.e. 192.168.0.106> -oN <output file w/ location i.e 
 ```sh
 nmap -T4 <ip> -Pn
 ```
+
+## Further Reading
+1. [NMAP Official Guide](https://nmap.org/book/man.html)
