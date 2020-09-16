@@ -40,11 +40,13 @@ OPTIONS:
                                    --packet-trace     _you can see the exact packets being sent and received and learn how it really works.                             
 ```
 
-#### Agressive scan timings are faster, but could yeild inaccurate results!
-T5 uses very aggressive scan timings and could lead to missed ports, T4 is a better compromise if you need fast results.
+**Agressive scan timings are faster, but could yeild inaccurate results!
+T5 uses very aggressive scan timings and could lead to missed ports, T4 is a better compromise if you need fast results.**
 
 
-**LOCATION _/usr/share/nmap/scripts_** -contains all default Nmap scripts
+
+#### LOCATION _/usr/share/nmap/scripts_** -contains all default Nmap scripts
+
 
 #### Nmap default script categories (Try yourself)
 * auth
