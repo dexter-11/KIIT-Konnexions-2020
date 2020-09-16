@@ -36,7 +36,23 @@ OPTIONS:
                                    --packet-trace     _you can see the exact packets being sent and received and learn how it really works.                             
 ```
 
-**LOCATION _/usr/share/nmap/scripts_**        _contains all default Nmap scripts
+**LOCATION _/usr/share/nmap/scripts_** -contains all default Nmap scripts
+
+#### Nmap default script categories (Try yourself)
+* auth
+* broadcast
+* brute
+* default
+* discovery
+* dos
+* exploit
+* external
+* fuzzer
+* intrusive
+* malware
+* safe
+* version
+* vuln
 
 #### Filter scripts by use-case
 ```sh
