@@ -10,3 +10,15 @@ This repository contains resources for Ethical Hacking sessions conducted by Kon
 - Read books, manuals, articles, be curious and not just a [script kiddie](https://www.wikihow.com/Avoid-Becoming-a-Script-Kiddie).
 - I wish you don't use these tools for illegal purposes, but if you do, I sure hope you know what you're doing.
 - Practice using challenges, not real targets!
+
+### Contents:
+
+[Day1](#Day 1)   Introduction to Ethical Hacking
+Day2   Reconnaissance / Footprinting
+Day3   Scanning & Enumeration
+Day4   System Hacking
+Day5-6 Web Application Penetration Testing
+Day7   Session Hijacking, Cookie Grabbing
+Day8   Wired and Wireless Attacks
+Day9   Cryptology
+Day10  CTF Methodology
