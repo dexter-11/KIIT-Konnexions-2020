@@ -13,12 +13,13 @@ This repository contains resources for Ethical Hacking sessions conducted by Kon
 
 ### Contents:
 
-[Day1](#Day 1)   Introduction to Ethical Hacking
-Day2   Reconnaissance / Footprinting
-Day3   Scanning & Enumeration
-Day4   System Hacking
-Day5-6 Web Application Penetration Testing
-Day7   Session Hijacking, Cookie Grabbing
-Day8   Wired and Wireless Attacks
-Day9   Cryptology
-Day10  CTF Methodology
+1. Introduction to Ethical Hacking
+2. Reconnaissance / Footprinting
+3. Scanning & Enumeration
+4. System Hacking
+5. Web Application Penetration Testing - I
+6. Web Application Penetration Testing - II
+7. Session Hijacking, Cookie Grabbing
+8. Wired and Wireless Attacks
+9. Cryptology
+10. CTF Methodology
