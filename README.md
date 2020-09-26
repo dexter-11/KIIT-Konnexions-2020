@@ -11,15 +11,3 @@ This repository contains resources for Ethical Hacking sessions conducted by Kon
 - I wish you don't use these tools for illegal purposes, but if you do, I sure hope you know what you're doing.
 - Practice using challenges, not real targets!
 
-### Contents:
-
-1. Introduction to Ethical Hacking
-2. Reconnaissance / Footprinting
-3. Scanning & Enumeration
-4. System Hacking
-5. Web Application Penetration Testing - I
-6. Web Application Penetration Testing - II
-7. Session Hijacking, Cookie Grabbing
-8. Wired and Wireless Attacks
-9. Cryptology
-10. CTF Methodology
