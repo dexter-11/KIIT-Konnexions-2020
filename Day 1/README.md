@@ -23,6 +23,7 @@
 5. Kali 2020.1 onwards, Kali discarded the default root-user policy. Enable it [here](https://itsfoss.com/kali-linux-root-user/).
 6. Ensure Virtualbox Guest Additions is properly installed [here](https://www.kali.org/docs/virtualization/install-virtualbox-guest-additions-kali/)
 7. Issue with Shared Folder access permissions - [Solution](https://innovativebeast.com/shared-folder-permission-denied-issue-in-virtualbox/)
+8. If having an issue when it gets installed but the machine doesn't start, Go to Settings > Display > Disable 3D Acceleration.
 
 ## Resources
 
