@@ -11,7 +11,7 @@
 ## Hardware Requirements
 
 1. Laptop :)
-2. External WiFi Adapter 
+2. External WiFi Adapter -  
    Should support Monitor mode & Packet Injection - [**Not Necessary**] *Buy only if you wish to practice Wireless hacking (Demo will be shown)*
 
 ## Installation
