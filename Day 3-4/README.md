@@ -1,6 +1,5 @@
 # Day 3-4 [Scanning and Enumeration]
 
-# Day 3-4 [Scanning and Enumeration]
 
 ### Setting up NAT Network in Virtual Box (Optional)
 ```sh
