@@ -165,3 +165,4 @@ This command will dump all the data present in that column
 As the name suggests Arbitrary File Upload Vulnerabilities is a type of vulnerability which occurs in web applications if the file type uploaded is not checked, filtered or sanitized. The main danger of these kind of vulnerabilities is that the attacker can upload a malicious PHP , ASP etc. script and execute it.
 
 1. [File Upload Tutorial on DVWA](https://www.youtube.com/watch?v=_QyGCev6fCk&t=587s)
+2. I've also personally made a tutorial on this and sent you the links. Please practice it. This is Very Imp.
