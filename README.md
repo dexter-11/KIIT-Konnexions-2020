@@ -13,3 +13,6 @@ This repository contains resources for Ethical Hacking sessions conducted by Kon
 
 ## Orientation
 PPT Show link - [_Click HERE_](https://drive.google.com/file/d/1vgKwE8hDQewvJA1j3bCvssi9CblJCaWU/view?usp=sharing)
+
+# Documentation
+### Read about the experience, how i managed and organized the course, it's contents and outcomes
