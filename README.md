@@ -11,3 +11,5 @@ This repository contains resources for Ethical Hacking sessions conducted by Kon
 - I wish you don't use these tools for illegal purposes, but if you do, I sure hope you know what you're doing.
 - Practice using challenges, not real targets!
 
+## Orientation
+PPT Show link - [_Click HERE_](https://drive.google.com/file/d/1vgKwE8hDQewvJA1j3bCvssi9CblJCaWU/view?usp=sharing)
