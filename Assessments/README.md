@@ -3,3 +3,4 @@ Download the Box here - [_LINK_](https://drive.google.com/file/d/1V6oP3fc5sJ1jIB
 
 There are 8 Flags worth a total of 100 points.
 Flag pattern is: `FLAGS${some_text}$-Xpts`
+Level - Beginner/Easy
